@@ -27,7 +27,7 @@ function NavBar() {
     },
   ];
   return (
-    <div className="container">
+    <div className="container bg-white">
       <div style={{ display: "flex", alignItems: "center", gap: "30px" }}>
         <img src={logoWhite} alt="logo" className="logo" />
         <ul className="cat-list">

@@ -1,0 +1,63 @@
+.bidding-table {
+  width: 740px;
+  margin-top: -100px;
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.bidding-table .ant-table-thead .ant-table-cell {
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: white;
+  font-size: larger;
+  padding-top: 0;
+  border-bottom: 2px solid var(--primary-color);
+}
+.bidding-table .ant-pagination {
+  display: flex; /* Use flexbox to center */
+  justify-content: center; /* Center content horizontally */
+}
+
+.bidding-table .ant-table-cell {
+  font-size: larger;
+}
+.bidding-table .ant-table-row .ant-table-cell {
+  border-bottom: 2px solid var(--primary-color);
+  padding: 20px;
+}
+
+.bidding-table .ant-table-tbody > tr:last-child .ant-table-cell {
+  border-bottom: none;
+}
+
+/* Style all pagination buttons */
+.bidding-table .ant-pagination-item {
+  background-color: white; /* Light background color */
+  color: var(--primary-color); /* Text color */
+  border: 1px solid gray; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Style active pagination button */
+.bidding-table .ant-pagination-item-active {
+  color: #ffffff; /* Active text color */
+  border-color: var(--primary-color); /* Active border color */
+}
+
+.bidding-table .ant-pagination-item:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.bidding-table .ant-pagination-prev .ant-pagination-item-link,
+.bidding-table .ant-pagination-next .ant-pagination-item-link {
+  color: var(--primary-color); /* Text color */
+  border-color: gray; /* Border color */
+}
+
+.bidding-table .ant-pagination-prev:hover .ant-pagination-item-link,
+.bidding-table .ant-pagination-next:hover .ant-pagination-item-link {
+  background-color: white; /* Hover background color */
+}

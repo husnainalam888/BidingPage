@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --gr-blue-color: #1b457d;
   --primary-color: #215092;
