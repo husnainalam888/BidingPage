@@ -3,6 +3,8 @@ import "./NavBar.css";
 import logoWhite from "../../assets/logoWhite.svg";
 import globeOutline from "../../assets/globeOutline.svg";
 import Button from "../Button/Button";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 function NavBar() {
   const catList = [
     {
@@ -45,6 +47,9 @@ function NavBar() {
         <span className="log-in">Log In</span>
         <div>
           <button className="sign-up">Sign Up</button>
+        </div>
+        <div>
+          <GiHamburgerMenu className="burger-menu" />
         </div>
       </div>
     </div>

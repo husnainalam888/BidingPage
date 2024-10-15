@@ -10,8 +10,10 @@ function Home() {
     <div
       style={{
         marginTop: "1%",
-        // backgroundColor: rgb(18, 18, 18 / 1),
         opacity: 1,
+        display: "flex",
+        flexDirection: "column",
+        flex: 1,
       }}
     >
       <NavBar />
@@ -22,7 +24,7 @@ function Home() {
           <a className="primary-link">/MERCEDIES-BENZ</a>
         </div>
         <div className="home-product-name">
-          <h1>MERCEDES-BENZ-C-CLASS 2015</h1>
+          <h1 className="home-product-name">MERCEDES-BENZ-C-CLASS 2015</h1>
           <p style={{ fontSize: "1.2rem" }}>VIN - ABJ | ITEM NO.736232</p>
         </div>
         <div className="home-sub-container">

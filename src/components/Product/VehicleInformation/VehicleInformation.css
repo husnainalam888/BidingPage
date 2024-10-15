@@ -20,7 +20,7 @@
   border-radius: 20px;
 }
 .vehicle-data-container {
-  margin: 40px 80px;
+  margin: 20px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; /* Allows items to wrap to the next line */
@@ -42,4 +42,45 @@
   font-weight: bolder;
   margin: 5px 10px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 1024) {
+  .vehicle-info-container {
+    padding: 20px 0px;
+  }
+  .vehicle-info-title {
+    font-size: 1.4rem;
+  }
+  .vehicle-data-container {
+    margin: 40px 20px;
+  }
+  .vehicle-data-item {
+    flex: 1 1 calc(100% - 40px); /* One item per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .vehicle-info-title {
+    font-size: 1.4rem;
+  }
+  .vehicle-data-container {
+    margin: 40px 20px;
+  }
+  .vehicle-data-label {
+    font-size: 1rem;
+  }
+  .vehichle-data-value {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 400px) {
+  .vehicle-info-title {
+    font-size: 1.2rem;
+  }
+  .vehicle-data-label {
+    font-size: 0.8rem;
+  }
+  .vehichle-data-value {
+    font-size: 1rem;
+  }
 }

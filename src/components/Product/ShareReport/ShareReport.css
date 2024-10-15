@@ -28,3 +28,12 @@
 .primary-button-text {
   font-size: larger;
 }
+
+@media (max-width: 768px) {
+  .share-report-container {
+    flex-direction: column;
+  }
+  .round-icon {
+    display: none;
+  }
+}

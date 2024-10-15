@@ -52,3 +52,52 @@
   border-radius: 5px;
   padding: 8px 10px;
 }
+.burger-menu {
+  display: none;
+}
+@media (max-width: 1172px) {
+  .cat-list {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    height: 100vh;
+  }
+  .cat-item {
+    width: 300px;
+    display: flex;
+  }
+  .burger-menu {
+    display: flex;
+    height: 40px;
+    width: 40px;
+  }
+  .cat-link {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .cat-list.active {
+    display: flex;
+  }
+  .log-in {
+    display: none;
+  }
+  .sign-up {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 0px;
+  }
+}

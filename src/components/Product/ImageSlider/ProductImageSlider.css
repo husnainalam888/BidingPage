@@ -58,3 +58,20 @@
   width: 20px;
   border-radius: 40px;
 }
+
+@media (max-width: 768px) {
+  .slider-image-item {
+    height: 40px;
+    width: 40px;
+  }
+  .backward-button {
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .forward-button {
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+  }
+}

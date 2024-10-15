@@ -9,54 +9,45 @@ const ShareReport = () => {
   return (
     <div className="share-report-container">
       <HiOutlineHeart className={"round-icon"} />
-      <div style={styles.buttonWrapper}>
-        <div className="primary-button">
-          <FaRegFileAlt
-            style={{
-              height: 24,
-              width: 24,
-            }}
-          />
-          <p
-            style={{
-              margin: 0,
-              padding: 0,
-            }}
-            className="primary-button-text"
-          >
-            Show Report
-          </p>
-        </div>
-        <div className="primary-button">
-          <IoLogoWhatsapp
-            style={{
-              height: 24,
-              width: 24,
-            }}
-          />
-          <p
-            style={{
-              margin: 0,
-              padding: 0,
-            }}
-            className="primary-button-text"
-          >
-            Whatsapp
-          </p>
-        </div>
+      <div className="primary-button">
+        <FaRegFileAlt
+          style={{
+            height: 24,
+            width: 24,
+          }}
+        />
+        <p
+          style={{
+            margin: 0,
+            padding: 0,
+          }}
+          className="primary-button-text"
+        >
+          Show Report
+        </p>
+      </div>
+      <div className="primary-button">
+        <IoLogoWhatsapp
+          style={{
+            height: 24,
+            width: 24,
+          }}
+        />
+        <p
+          style={{
+            margin: 0,
+            padding: 0,
+          }}
+          className="primary-button-text"
+        >
+          Whatsapp
+        </p>
       </div>
       <IoShareSocialOutline className={"round-icon"} />
     </div>
   );
 };
 
-const styles = {
-  buttonWrapper: {
-    display: "flex",
-    flex: 1,
-    justifyContent: "space-between",
-    gap: "20px",
-  },
-};
+const styles = {};
 
 export default ShareReport;

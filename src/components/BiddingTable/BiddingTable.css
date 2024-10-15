@@ -61,3 +61,9 @@
 .bidding-table .ant-pagination-next:hover .ant-pagination-item-link {
   background-color: white; /* Hover background color */
 }
+
+@media (max-width: 1550px) {
+  .bidding-table {
+    margin-top: 20px;
+  }
+}

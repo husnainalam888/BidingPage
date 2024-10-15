@@ -19,3 +19,16 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+.home-product-name {
+}
+@media (max-width: 1700px) {
+  .home-container {
+    padding: 10px 20px;
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .home-product-name {
+    font-size: larger;
+  }
+}
