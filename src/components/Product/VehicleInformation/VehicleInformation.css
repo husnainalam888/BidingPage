@@ -1,0 +1,45 @@
+.vehicle-info-container {
+  background-color: white;
+  padding: 40px 0px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding-bottom: 0px;
+  max-width: 768px;
+}
+.vehicle-info-title {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  padding: 0px;
+}
+.vehicle-info-title-container {
+  background-color: var(--primary-color);
+  align-self: center;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+.vehicle-data-container {
+  margin: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Allows items to wrap to the next line */
+}
+
+.vehicle-data-item {
+  flex: 1 1 calc(50% - 80px); /* Two items per row */
+  box-sizing: border-box;
+  margin: 0px 20px;
+}
+.vehicle-data-label {
+  font-size: 1.2rem;
+  color: rgb(60, 60, 60);
+  margin: 5px 10px;
+}
+.vehichle-data-value {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  font-weight: bolder;
+  margin: 5px 10px;
+  margin-bottom: 20px;
+}
